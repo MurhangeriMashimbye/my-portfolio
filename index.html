@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murhangeri Mashimbye - Software Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">M<span>Portfolio</span></div>
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h3>Hello, I'm</h3>
+                    <h1>Murhangeri Mashimbye</h1>
+                    <h2>Software Developer</h2>
+                    <div class="education-info">
+                        <i class="fas fa-graduation-cap"></i>
+                        <p>Currently pursuing Bachelor of Science in Information Technology at North-West University (NWU)</p>
+                    </div>
+                    <p class="hero-description">Specializing in secure messaging applications and data analysis solutions.</p>
+                    <div class="btn-group">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="Murhangeri.jpg" alt="Murhangeri Mashimbye" onerror="this.src='https://via.placeholder.com/300x300?text=Profile+Photo';">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+                <p>Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <p>I'm a software developer with expertise in building secure messaging applications and data analysis solutions. My technical skills span across C# .NET, Java, and data visualization tools.</p>
+                <p>Currently enhancing my skills at North-West University while developing projects that combine secure communication with data-driven insights.</p>
+                <div class="github-graph">
+                    <img src="https://ghchart.rshah.org/MurhangeriMashimbye" alt="GitHub Contributions">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-title">
+                <h2>Technical Skills</h2>
+                <p>Technologies I work with</p>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Development</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <p>C# .NET</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <p>Java</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-bar"></i> Data Analysis</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fas fa-table"></i>
+                            <p>Excel</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <p>Power BI</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <p>SQL</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-lock"></i> Security</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fas fa-key"></i>
+                            <p>AES Encryption</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <p>RSA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Messaging Applications</h2>
+                <p>Secure communication solutions</p>
+            </div>
+            <div class="projects-grid">
+                <!-- C# Messaging App -->
+                <div class="project-card featured">
+                    <div class="project-img">
+                        <img src="https://raw.githubusercontent.com/MurhangeriMashimbye/CSharp-Messaging-App/main/screenshots/main-window.png" alt="C# Messaging App">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-badge">Featured Project</div>
+                        <h3>C# Secure Messaging Application</h3>
+                        <p class="project-description">
+                            A desktop messaging application with end-to-end encryption built using C# .NET Framework.
+                        </p>
+                        <ul class="project-features">
+                            <li>Real-time messaging between users</li>
+                            <li>AES-256 encryption for all messages</li>
+                            <li>User authentication system</li>
+                            <li>SQL Server database integration</li>
+                        </ul>
+                        <div class="project-tech">
+                            <h4>Technologies Used:</h4>
+                            <div class="project-tags">
+                                <span class="project-tag">C#</span>
+                                <span class="project-tag">.NET</span>
+                                <span class="project-tag">WinForms</span>
+                                <span class="project-tag">SQL Server</span>
+                            </div>
+                        </div>
+                        <a href="https://github.com/MurhangeriMashimbye/CSharp-Messaging-App" class="btn btn-outline" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Java Messaging App -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://raw.githubusercontent.com/MurhangeriMashimbye/Java-Messaging-App/main/screenshots/main-window.png" alt="Java Messaging App">
+                    </div>
+                    <div class="project-content">
+                        <h3>Java Secure Messaging Application</h3>
+                        <p class="project-description">
+                            A cross-platform messaging application with RSA encryption built using Java.
+                        </p>
+                        <ul class="project-features">
+                            <li>Multi-threaded client-server architecture</li>
+                            <li>RSA public-key cryptography</li>
+                            <li>Message history storage</li>
+                            <li>MySQL database backend</li>
+                        </ul>
+                        <div class="project-tech">
+                            <h4>Technologies Used:</h4>
+                            <div class="project-tags">
+                                <span class="project-tag">Java</span>
+                                <span class="project-tag">Swing</span>
+                                <span class="project-tag">Socket Programming</span>
+                                <span class="project-tag">MySQL</span>
+                            </div>
+                        </div>
+                        <a href="https://github.com/MurhangeriMashimbye/Java-Messaging-App" class="btn btn-outline" target="_blank">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+                <p>Get in touch for opportunities</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <a href="tel:0732156285">073 215 6285</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:professormash4@gmail.com">professormash4@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/murhangeri-mashimbye-a938b6366/" target="_blank">linkedin.com/in/murhangeri-mashimbye</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/MurhangeriMashimbye" target="_blank">github.com/MurhangeriMashimbye</a>
+                        </div>
+                    </div>
+
+                    <!-- CV Download Button -->
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-file-pdf"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Download CV</h3>
+                            <a href="Murhangeri.pdf" download class="btn btn-outline">
+                                <i class="fas fa-download"></i> Download PDF
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Murhangeri Mashimbye. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+        
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
+
